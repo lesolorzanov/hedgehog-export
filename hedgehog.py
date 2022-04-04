@@ -48,27 +48,3 @@ class Hedgehog():
         with open(self.path+name+'.json', 'r') as f:
             setattr(self,name,json.load(f))
             
-#     def readCourses(self):
-#         assert self.checkinit()==True            
-#         with open(self.path+'courses.json', 'r') as f:
-#             self.courses = json.load(f)            
-                        
-#     def readActivities(self):
-#         assert self.checkinit()==True            
-#         with open(self.path+'activities.json', 'r') as f:
-#             self.activities = json.load(f)   
-            
-#     def readPeople(self):
-#         assert self.checkinit()==True            
-#         with open(self.path+'people.json', 'r') as f:
-#             self.people = json.load(f)    
-            
-#     def readProjects(self):
-#         assert self.checkinit()==True            
-#         with open(self.path+'projects.json', 'r') as f:
-#             self.projects = json.load(f)             
-            
-#     def readTheses(self):
-#         assert self.checkinit()==True            
-#         with open(self.path+'theses.json', 'r') as f:
-#             self.theses = json.load(f)
